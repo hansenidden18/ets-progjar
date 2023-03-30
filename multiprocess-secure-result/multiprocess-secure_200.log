@@ -14,31 +14,31 @@ Server Temp Key:        X25519 253 bits
 Document Path:          /
 Document Length:        Variable
 
-Concurrency Level:      10
-Time taken for tests:   157.064 seconds
+Concurrency Level:      200
+Time taken for tests:   111.105 seconds
 Complete requests:      1000
 Failed requests:        0
-Total transferred:      147000 bytes
-HTML transferred:       35000 bytes
-Requests per second:    6.37 [#/sec] (mean)
-Time per request:       1570.639 [ms] (mean)
-Time per request:       157.064 [ms] (mean, across all concurrent requests)
-Transfer rate:          0.91 [Kbytes/sec] received
+Total transferred:      124362 bytes
+HTML transferred:       29610 bytes
+Requests per second:    9.00 [#/sec] (mean)
+Time per request:       22220.959 [ms] (mean)
+Time per request:       111.105 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.09 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        3 1083 3770.6    253   66095
-Processing:     2  351 278.3    290    1339
-Waiting:        2  331 267.7    274    1338
-Total:         10 1434 3835.4    703   66993
+Connect:        0 1284 3679.5    183   32147
+Processing:     3 17349 40008.5    305  111088
+Waiting:        0  230 217.0    172    1055
+Total:         12 18633 39632.3   1020  111088
 
 Percentage of the requests served within a certain time (ms)
-  50%    703
-  66%   1146
-  75%   1327
-  80%   1517
-  90%   2609
-  95%   4224
-  98%   8277
-  99%  16334
- 100%  66993 (longest request)
+  50%   1020
+  66%   1765
+  75%   3710
+  80%   7561
+  90%  111070
+  95%  111078
+  98%  111084
+  99%  111086
+ 100%  111088 (longest request)
