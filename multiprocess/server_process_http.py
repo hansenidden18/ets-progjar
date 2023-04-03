@@ -10,11 +10,11 @@ from http import HttpServer
 httpserver = HttpServer()
 
 
-class ProcessTheClient(threading.Thread):
+class ProcessTheClient(multiprocessing.Process):
 	def __init__(self, connection, address):
 		self.connection = connection
 		self.address = address
-		threading.Thread.__init__(self)
+		multiprocessing.Process.__init__(self)
 
 	def run(self):
 		rcv=""
